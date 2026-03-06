@@ -1,0 +1,10 @@
+name: display hostname
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display hostname
+        run: hostname
